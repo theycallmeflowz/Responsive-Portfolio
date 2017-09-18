@@ -1,0 +1,184 @@
+body{
+	/*background-color: #FEFEFE;*/
+	font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	font-size: 10px;
+}
+
+h1{
+	background-color: #259F8F;
+	padding:20px;
+	margin-left: 4%;
+	margin-right: 70%;
+	color: white;
+}
+
+h1 a{
+	text-decoration: none;
+	color: white;
+}
+
+p{
+	color: #5E5A5A;
+	font-size: 15px;
+}
+
+h2{
+	color: #259F8F;
+	font-size: 20px;
+
+}
+
+h3{
+	color: #B5B0B0;
+	float: right;
+	margin-right: -280px;
+	margin-top: -67px;
+	font-size: 23px;
+}
+
+strong{
+	color: #259F8F;
+	font-size: 20px;
+}
+
+#profile_pic{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-right: 10px;
+	margin-top: 13px;
+}
+
+#header{
+	height: 60px;
+}
+
+#header-left{
+	background-color: white;
+	width: 80%;
+}
+
+#header-right{
+	width: 70%;
+	position: relative;
+}
+
+#aboutme{
+	background-color: #FEFEFE;
+	width:50%;
+	height:500px;
+	margin: 50px 60px 200px 50px;
+}
+
+#connectme{
+	background-color: #FEFEFE;
+	width: 35%;
+	height:150px;
+	float: right;
+	position: relative;
+	bottom: 560px;
+	right: 100px;
+	top: -710px;
+	left: 100px;
+}
+
+#footer{
+	padding:30px 0;
+	background-color: #259F8F;
+}
+
+#footer-text{
+	margin-left: 45%;
+	color: white;
+	font-size: 15px;
+}
+
+input{
+	width: 80%;
+	padding: 5px;
+	border: 2px solid green;
+}
+
+#msgbox{
+	height: 300px;
+}
+
+.button{
+	padding: 10px;
+	background-color: #259F8F;
+}
+
+#scratch{
+	width: 200px;
+	height: 200px;
+}
+
+
+@media only screen and (min-width: 980px){ 
+	#connectme {
+		float: right;
+	  max-width: 40%;
+	  padding: 30px;
+	  margin-bottom: 20px;
+	}
+	
+	#header-right {
+		width: 100%;
+		float: right;
+		position: relative;
+		top: 7px;
+		left: -324px;
+	} 
+
+	#header-left {
+		margin-left: 30px;
+		width: 100%;
+	}
+
+};
+
+@media only screen and (min-width: 768px){
+	#connectme {
+				width: 100%;
+				}
+	
+	#header-right {float: none;
+				   position: relative;
+				   width: 100%;
+				   top: 0px;
+				   left: 0px;
+				   bottom: 0px;
+				   right: 0px
+				} 
+
+	#header-left {
+				margin: auto;
+				width: 100%;
+	}
+};
+
+@media only screen and (min-width: 640px){
+	#connectme { 
+				 width: 100%; 
+				 float: left;
+				 position: relative;
+				}
+	
+	#header-right {
+				   float: none;
+				   position: initial;
+				   width: 100%;
+				   top: 0px;
+				   left: 0px;
+				   bottom: 0px;
+				   right: 0px;
+				   margin: auto;
+				} 
+
+	#header-left{
+					width: 100%;
+					float: left;
+				}
+};
+
+
